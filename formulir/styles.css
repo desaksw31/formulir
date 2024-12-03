@@ -1,0 +1,67 @@
+.form-container{
+    width: 1000px;
+    margin: 100 px auto;
+    padding: 20px 40px;
+    background-color: #123;
+    color: white;
+    border-radius: 8px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+img{
+    width: auto;
+    height: 100px;
+
+}
+
+input[type ="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin: 10px 0;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type ="submit"]{
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #29425d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type = "submit"] :hover{
+    background-color: darkblue;
+}
+
+
+@media (max-width: 600px){
+    .form_container{
+        width: 90%;
+        margin: 50px auto;
+    }
+    input [type ="text"], textarea, button[type = "submit"]{
+        font-size: 16px;
+    }
+    .header-right {
+        float: none;
+      }
+}
